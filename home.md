@@ -2,7 +2,7 @@
 title: 欢迎来到我的Index
 description: 
 published: true
-date: 2020-08-10T06:06:30.275Z
+date: 2020-08-10T06:07:25.970Z
 tags: 生活
 editor: markdown
 ---
@@ -14,6 +14,6 @@ editor: markdown
 ## 部分文章目录
 > 数据库
 {.is-success}
-- (Cassandra 架构、实现原理)[https://holajiawei.com/zh/tech/db/cassandra-core]
+- [Cassandra 架构、实现原理](https://holajiawei.com/zh/tech/db/cassandra-core)
 
 
