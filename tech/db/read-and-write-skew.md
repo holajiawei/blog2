@@ -2,12 +2,11 @@
 title: 数据库事务一致性中的读偏斜和写偏斜问题
 description: 
 published: true
-date: 2020-08-10T05:52:19.636Z
+date: 2020-08-10T05:53:15.144Z
 tags: database, transaction
 editor: markdown
 ---
 
-[TOC]
 # 数据库事务一致性中的读偏斜和写偏斜问题
 
 > 在1995年一篇描述SQL隔离级别的论文[A Critique of ANSI SQL Isolation Levels](http://research.microsoft.com/apps/pubs/default.aspx?id=69541)中曾经提出了除我们常见的脏读dirty read、不可重复读non-repeatable read、幻读phantom read之外的更多的异常情况，也就是今天要说的Read Skew读偏斜和Write Skew写偏斜(其实还有一种比较复杂的异常现象:更新丢失 Lost Update，这个单独成篇说)
