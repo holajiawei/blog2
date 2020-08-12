@@ -2,7 +2,7 @@
 title: 欢迎来到我的Index
 description: 
 published: true
-date: 2020-08-11T08:50:19.577Z
+date: 2020-08-12T11:42:03.872Z
 tags: 生活
 editor: markdown
 ---
@@ -30,4 +30,4 @@ editor: markdown
 > The higher we soar the smaller we appear to those who cannot fly.
 
 
-![](https://javatuchuang.oss-cn-shanghai.aliyuncs.com/img/20200811164826.png)
+<img src="https://javatuchuang.oss-cn-shanghai.aliyuncs.com/img/20200811164826.png" height="600" align=center alt="尼采"></img>
