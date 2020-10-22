@@ -2,7 +2,7 @@
 title: 云服务应用架构指南之架构风格
 description: 
 published: true
-date: 2020-10-22T11:45:40.676Z
+date: 2020-10-22T11:46:34.566Z
 tags: cloud native, arch
 editor: markdown
 ---
