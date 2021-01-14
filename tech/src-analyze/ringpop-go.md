@@ -2,7 +2,7 @@
 title: Ringpop-go
 description: 
 published: true
-date: 2021-01-13T14:16:45.360Z
+date: 2021-01-14T14:22:00.162Z
 tags: distributed system, ringpop
 editor: markdown
 dateCreated: 2021-01-12T13:06:53.419Z
@@ -15,3 +15,5 @@ dateCreated: 2021-01-12T13:06:53.419Z
 ## 项目核心
 
 - [**tchannel**](https://tchannel.readthedocs.io/)： 这是由Uber研发的一套开源通信框架，用于分布式系统中的RPC调用，实现了如服务发现、容错、链路追踪等特性，支持多种开发语言比如Python、Go、Javascript、Java等，支持的序列化协议有JSON、HTTP、Thrift等。与gRPC类似(注意tchannel与thrift的关系 和 gRPC与ProtocolBuffer类似)
+- hashring 哈希环的实现
+- events 简单的事件系统
