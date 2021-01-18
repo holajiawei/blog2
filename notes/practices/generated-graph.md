@@ -2,7 +2,7 @@
 title: 像Markdown一样使用代码绘制依赖图、流程图、时序图
 description: 
 published: true
-date: 2021-01-18T13:38:54.291Z
+date: 2021-01-18T16:36:57.091Z
 tags: graphviz, mermaid
 editor: markdown
 dateCreated: 2021-01-18T13:38:54.291Z
@@ -17,7 +17,7 @@ dateCreated: 2021-01-18T13:38:54.291Z
 {.is-info}
 
 ## Graphviz <http://www.graphviz.org/>
-这个我第一次知道是因为我在使用golang的debug pprof工具时才了解到这款非常优秀的图像代码生成工具，后面才了解到在机器学习领域用于决策树绘制早已非常流行。
+<del>这个我第一次知道是因为我在使用golang的debug pprof工具时才了解到这款非常优秀的图像代码生成工具，后面才了解到在机器学习领域用于决策树绘制早已非常流行。</del>大三某次做无线网络的仿真实验使用的Tcl/Tk脚本调用了graphviz来输出图像_(:з)∠)_
 Graphviz使用一门叫做dot的简化语言来绘制，具体语法就在这里不赘述了。其大致风格如下:
 ~~~
 strict graph { 
