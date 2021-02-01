@@ -2,7 +2,7 @@
 title: Noobaa-Core源码分析
 description: 
 published: true
-date: 2021-01-31T16:17:51.608Z
+date: 2021-02-01T13:48:05.390Z
 tags: distributed system, nooba
 editor: markdown
 dateCreated: 2021-01-31T15:59:17.940Z
@@ -16,3 +16,22 @@ dateCreated: 2021-01-31T15:59:17.940Z
 
 ## 代码整体分析
 NoobaaCore的主要编程语言为NodeJS
+
+- 源码文件目录结构 /src
+	- agent
+  - api
+  - core
+  - deploy
+  - endpoint
+  - hosted_agents
+  - lambda_funs
+  - native : 使用NodeJS N-API实现的原生交互接口
+  	- aws-cpp-sdk: aws-s3 CPP-SDK测试用,未暴露公共接口
+    - chunk: C++ 实现的Rabin分块算法
+    - third_party: 引入的第三方库
+    	- cm256: 一种Erasure Codec实现
+      - **isa-l**: 宝藏c实现的低阶存储库，包含CRC校验、ErasureCodec、RAID奇偶异或计算、压缩解压缩实现
+      - snappy: 一种压缩算法的实现
+      - libutp: 基于UDP实现的用户态事件系统
+    - n2n: 基于libuv的接口的简易封装
+    
