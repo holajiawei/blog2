@@ -2,7 +2,7 @@
 title: API Gateway对比选型
 description: Tyk vs Ambassador vs Traefik vs Nginx vs HAProxy vs Gloo
 published: true
-date: 2021-06-20T04:06:22.101Z
+date: 2021-06-21T15:49:25.450Z
 tags: k8s, api gateway
 editor: markdown
 dateCreated: 2021-06-20T04:06:22.101Z
@@ -23,4 +23,4 @@ API Gateway价值和优势就不再赘述了，虽然上面👆罗列的诸多AP
 Nginx、HAProxy甚至直接拿WebServer来充当外部流量访问入口，这些都是基本操作，常见而且成熟，同时架构层面倾向于代码整体合一的大泥球架构，那时候更多的公用逻辑往Web框架、中间件塞，接口数量也不多，Nginx配置一招鲜胜在简单
 
 ### 在K8S🔥之后
-不是因为K8S🔥导致API Gateway领域逐渐成长，而是架构思想的变更，由大泥球架构往微服务架构发展带来的开发思路变革继而导致对编排类服务的渴求，包括容器编排、网络编排、数据/存储编排等
+不是因为K8S🔥导致API Gateway领域逐渐成长，而是架构思想的变更，由大泥球架构往微服务架构发展带来的开发思路变革继而导致对编排类服务的渴求，包括容器编排、网络编排、数据/存储编排等。微服务架构模式的流行带来了API 管理的问题，此时的API Gateway就逐渐分化出不同的发展路线，有的API Gateway依托K8S专注南北向流量的处理。组成各类Ingress Controller
